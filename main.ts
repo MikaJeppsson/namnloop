@@ -1,0 +1,10 @@
+basic.forever(function () {
+    led.setBrightness(255)
+    basic.showIcon(IconNames.Skull)
+    led.setBrightness(180)
+    basic.showIcon(IconNames.Skull)
+    led.setBrightness(130)
+    basic.showIcon(IconNames.Skull)
+    led.setBrightness(180)
+    basic.showIcon(IconNames.Skull)
+})
